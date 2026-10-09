@@ -26,6 +26,7 @@ const mono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://sathwik-reddy.vercel.app"),
   title: `${site.name} — ${site.roleLong}`,
   description: site.intro,
   openGraph: {
