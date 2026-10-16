@@ -40,7 +40,15 @@ export const media: Record<string, MediaSlot> = {
   },
 
   /* ---------- DreamHomeTech ---------- */
-  "dht.hero": { id: "dht.hero", label: "PRODUCT VIDEO", kind: "video", ratio: "16 / 9" }, // /media/dreamhometech/hero.mp4 + hero.webp
+  "dht.hero": {
+    id: "dht.hero",
+    label: "PRODUCT VIDEO",
+    kind: "video",
+    ratio: "16 / 9",
+    src: "/media/dreamhometech/hero.mp4",
+    poster: "/media/dreamhometech/hero.webp",
+    alt: "DreamHomeTech: a 2D floorplan turned into a customizable 3D home, explored in real time",
+  },
   "dht.plan": { id: "dht.plan", label: "2D FLOORPLAN", kind: "image", ratio: "16 / 10" }, // /media/dreamhometech/floorplan.webp
   "dht.model": { id: "dht.model", label: "GENERATED 3D HOME", kind: "image", ratio: "16 / 10" }, // /media/dreamhometech/generated-home.webp
 
